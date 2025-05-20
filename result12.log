@@ -1,0 +1,50 @@
+=== Run lab_v0 ===
+=== result ===
+fieldValue      = 5.53321e+11
+energy[0]       = 1e+07
+Sum(velocity)   = 2.90484e+07
+Sum(pressure)   = 5e+13
+Sum(energy)     = 1e+14
+atomicFlux      = 29.0484
+criticalFlux    = 5.61032e+07
+real 18.64
+user 18.17
+sys 0.06
+=== Run lab_v1 ===
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '12'
+  OMP_SCHEDULE = 'DYNAMIC'
+  OMP_PROC_BIND = 'FALSE'
+  OMP_PLACES = ''
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '1'
+  OMP_NUM_TEAMS = '0'
+  OMP_TEAMS_THREAD_LIMIT = '0'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+  OMP_ALLOCATOR = 'omp_default_mem_alloc'
+  OMP_TARGET_OFFLOAD = 'DEFAULT'
+  GOMP_CPU_AFFINITY = ''
+  GOMP_STACKSIZE = '0'
+  GOMP_SPINCOUNT = '300000'
+OPENMP DISPLAY ENVIRONMENT END
+=== result ===
+fieldValue      = 5.53321e+11
+energy[0]       = 1e+07
+Sum(velocity)   = 2.90484e+07
+Sum(pressure)   = 5e+13
+Sum(energy)     = 1e+14
+atomicFlux      = 29.0484
+criticalFlux    = 5.61032e+07
+real 5.36
+user 36.09
+sys 0.04
