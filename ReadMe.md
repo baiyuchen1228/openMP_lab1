@@ -1,7 +1,3 @@
-### [Lab1 Report 上傳連結](https://forms.gle/SvQyJwQL3qMJsseC8)
-
-your code link(using github):[baiyuchen1228/openMP_lab: test openMP](https://github.com/baiyuchen1228/openMP_lab)
-
 ## 1. Name, Student ID,  School
 
 ---
