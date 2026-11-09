@@ -64,6 +64,12 @@ make clean
 THREADS="1 12" REPEAT=3 ./reproduce.sh   # 自訂 thread 數與次數
 ```
 
+- `plot.py`：讀取 `results_20261021/summary.md` 畫出實驗圖到 `figures/`（需要 `pip install matplotlib`）：
+
+```bash
+python3 plot.py
+```
+
 ## 3. Result
 
 ---
@@ -116,6 +122,8 @@ $$
 | 6 | 6.45 ± 0.15 | 3.02× | 6.94 | 2.53× |
 | 8 | 5.90 ± 0.10 | 3.30× | 5.33 | 3.29× |
 | 12 | 5.77 ± 0.18 | 3.37× | 5.36 | 3.28× |
+
+![Speedup](figures/speedup.png)
 
 觀察結果：
 
@@ -280,6 +288,8 @@ for (int i = 0; i < numParticles; i++) {
 | 6 | 6.45 ± 0.15 | 6.97 ± 0.12 | 8.1% | 25.06 | 27.85 |
 | 8 | 5.90 ± 0.10 | 6.43 ± 0.08 | 9.0% | 28.56 | 32.70 |
 | 12 | 5.77 ± 0.18 | 6.43 ± 0.18 | **11.4%** | 37.47 | 45.31 |
+
+![Execution time](figures/time.png)
 
 在 12 執行緒下 `atomic` 版本為 **6.43 秒**，相比 `reduction` 版本的 **5.77 秒**，慢了約 **11.4%**（原始作業為 5.75 vs 5.36 秒，慢約 7.3%）。
 
